@@ -637,8 +637,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 939384322}
     - target: {fileID: 8571076842338426122, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842338426122, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842338426123, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: m_Pivot.x
@@ -674,6 +682,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
@@ -2055,7 +2075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c7cffa56e732254798b5037b7b9d8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpawnInterval: 5
+  m_SpawnInterval: 4
   m_AccelerationRatePerCatch: 0.2
   m_SpawnAreaWidth: {x: -8, y: 8}
   m_SpawnHeight: 5
@@ -2074,7 +2094,7 @@ MonoBehaviour:
   OnTimerFinished:
     m_PersistentCalls:
       m_Calls: []
-  TimeLeft: 45
+  TimeLeft: 60
   IsSpawning: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
